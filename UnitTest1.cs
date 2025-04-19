@@ -61,6 +61,7 @@ namespace WebAppTestProject1
                     catch (Exception ex)
                     {
                         logFile.WriteLine($"Error downloading {linkText}: {ex.Message}");
+
                     }
                 }
             }
